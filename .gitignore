@@ -43,3 +43,17 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# API Keys - never commit these
+lib/api_keys.dart
+
+# Android signing
+*.jks
+*.keystore
+key.properties
+android/key.properties
+
+# Environment files
+.env
+*.env
+.env.*
