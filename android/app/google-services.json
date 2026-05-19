@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "343904432686",
+    "project_id": "unibike-31caa",
+    "storage_bucket": "unibike-31caa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343904432686:android:6512b90df474cddb0ba5bf",
+        "android_client_info": {
+          "package_name": "com.example.unibike"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDgloJ0xY4iIdD8iCK8599EvkQpiJPaOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
