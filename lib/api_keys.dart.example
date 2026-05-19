@@ -1,0 +1,4 @@
+// lib/api_keys.dart.example
+// Copy this file, rename it to api_keys.dart, and fill in your own keys
+
+const String mapTilerApiKey = 'YOUR_MAPTILER_API_KEY_HERE';

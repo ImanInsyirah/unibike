@@ -6,6 +6,7 @@ import '../widgets/header_section.dart';
 import '../widgets/image_carousel.dart';
 import '../widgets/action_button.dart';
 import '../widgets/navigation_bar.dart' as custom_nav;
+import '../api_keys.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -95,7 +96,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           TileLayer(
                             //urlTemplate: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                             //subdomains: ['a', 'b', 'c'],
-                            urlTemplate: "https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=Pebs1VO28jPqw8YoANcH",
+                            urlTemplate: "https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=$mapTilerApiKey",
                             userAgentPackageName: 'com.example.unibike',
                           ),
                           MarkerLayer(

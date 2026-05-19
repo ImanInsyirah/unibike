@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
+import 'api_keys.dart';
 
 class MapPage extends StatefulWidget {
   @override
@@ -34,7 +35,7 @@ class _MapPageState extends State<MapPage> {
           TileLayer(
             //urlTemplate: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
             //subdomains: ['a', 'b', 'c'],
-            urlTemplate: "https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=Pebs1VO28jPqw8YoANcH",
+            urlTemplate: "https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=$mapTilerApiKey",
             userAgentPackageName: 'com.example.unibike',
           ),
           MarkerLayer(
